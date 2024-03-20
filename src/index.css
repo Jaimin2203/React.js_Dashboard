@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.sidebar {
+  background: #ffffff;
+  color: #000000;
+  transition: all 0.5s;
+  width: 260px;
+  height: 100%;
+  flex-shrink: 0;
+  background: var(--White, #fff);
+  box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.06);
+}
+.top_section {
+  display: flex;
+  color: #000000;
+  padding: 25px 15px;
+  gap: 5px;
+  transition: all 0.5s;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #000000;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  align-items: center;
+}
+.link:hover {
+  background: rgba(255, 91, 90, 0.08);
+  color: #ff5b5a;
+  transition: all 0.5s;
+}
+.active {
+  background: rgba(255, 91, 90, 0.08);
+  color: #ff5b5a;
+  border-left: 4px solid #ff5b5a;
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+}
+.heaader_s {
+  position: absolute;
+  border: 1px solid black;
+  width: 1180px;
+  height: 47px;
+  top: 25px;
+  left: 260px;
+  border-radius: 4px;
+  border: 1px;
+}
+.nav_section-right {
+  width: 50%;
+
+  margin-bottom: 20px;
+}
+
+.nav_section-left {
+  width: 50%;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav_section input {
+  width: 100%;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-3 {
+  padding-right: 36.75rem;
+  padding-bottom: 35px;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.items-center {
+  align-items: center;
+}
+.bg-primary-red-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 91 90 / var(--tw-bg-opacity));
+}
+.pl-4 {
+  padding-left: 1rem;
+  margin-left: 10px;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.main-box {
+  box-shadow: 0px 0px 12px 0px #0000000a !important;
+}
+
+.main-box:hover {
+  background-color: #ff5b5a;
+  color: #ffffff;
+}
+.main-box::after {
+  background-color: #ff5b5a;
+  color: #ffffff;
+}
+.font-sans {
+  font-family: "Bebas Neue", sans-serif;
+}
+.font-serif {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: xxx-large;
+}
